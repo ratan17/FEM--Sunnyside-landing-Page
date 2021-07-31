@@ -1,0 +1,471 @@
+.attribution { font-size: 18px; text-align: center; background-color: cyan; }
+.attribution a { color: hsl(198, 62%, 26%); }
+
+body{
+  font-size: 18px;
+  margin: 0;
+  overflow-x:hidden;
+  overflow-y: visible;
+}
+
+/* section-1 : hero */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('images/desktop/image-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-color: hsl(198, 62%, 26%);
+  position:relative;
+}
+
+   /* navbar */
+.navbar{
+  padding: 2rem 3rem 0 3rem;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+  }
+
+.brand-lexend-font, .nav-link{
+  color: white;
+}
+.brand-lexend-font{
+  font-family: 'Lexend', sans-serif;
+  letter-spacing: -1px;
+  font-size: 3rem;
+}
+
+.brand-lexend-font:hover{
+  color:white;
+}
+
+nav ul li>a:not(a[type=button]){
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+}
+
+nav.navbar ul.navbar-nav li.nav-item>a[type=button]{
+padding: 1rem 2rem;
+border-radius: 30px;
+background-color: white;
+color: hsl(212, 27%, 19%);
+font-family: 'Fraunces', serif;
+}
+
+nav.navbar ul.navbar-nav li.nav-item>a[type=button]:active{
+  color:#fff;
+  background-color: hsl(200, 100%, 80%);
+}
+
+.company-intro{
+  font-family: 'Fraunces', serif;
+  text-align:center;
+  font-weight: 900;
+  color:white;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  margin: 5% 0;
+  }
+
+svg.arrow{
+position:absolute;
+left: 49%;
+bottom:40%;
+}
+
+/* features */
+
+section.features{
+  width:100vw;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.features div.items{
+  width: 50vw;
+  height: 85vh;
+}
+
+
+.features .items h1,.features .items  h2, .features .items a{
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 900;
+}
+
+.features .items a{
+  color: hsl(212, 27%, 19%);
+}
+
+.features .items p{
+ font-family: 'Barlow', sans-serif;
+}
+
+.stand-out-text p, .transform-text p{
+  color:hsl(210, 4%, 67%);
+  margin: 7% 0;
+}
+
+.stand-out-text, .transform-text{
+ padding: 10%;
+}
+
+.transform-image{
+  background-image: url("images/desktop/image-transform.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stand-out-image{
+  background-image: url("images/desktop/image-stand-out.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features .items img{
+  width: inherit;
+}
+
+.stand-out-text .underline, .transform-text .underline{
+ width: 150px;
+ height:3%;
+ border-radius: 15px;
+ position:relative;
+ z-index:-1;
+ bottom: 3%;
+ right: 2%;
+}
+
+.transform-text a, .stand-out-text a{
+  text-decoration: none;
+}
+
+.transform-text .underline{
+ background-color: hsl(51, 100%, 80%);
+}
+
+.stand-out-text .underline{
+  background-color:hsl(7, 99%, 90%);
+}
+
+.cherries-background{
+  background-image: url("images/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: hsl(167, 40%, 24%);
+}
+
+.orange-background{
+  background-image: url("images/desktop/image-photography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: hsl(198, 62%, 26%);
+}
+
+.orange-background h2, .cherries-background h2{
+  margin-bottom: 10%;
+}
+
+.features-bottom-text{
+  text-align: center;
+  padding: 0 25%;
+  position:absolute;
+  bottom: 10%;
+}
+
+/* testimonials */
+section.testimonials{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.testimonials .testimonials-content{
+  width: 80vw;
+}
+
+
+.testimonials .testimonials-content h4{
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  color: #a8a9ab;
+  margin-bottom: 5%;
+}
+
+.testimonials-content .testimonials-row{
+  display:flex;
+  justify-content:space-between;
+  max-width: inherit;
+}
+
+.testimonials .testimonials-content .testimonials-items{
+  max-width: 25vw;
+  text-align: center;
+}
+
+.testimonials .testimonials-content .testimonials-items img{
+  transform:scale(0.5);
+  border-radius: 50%;
+}
+
+.testimonials .testimonials-content .testimonials-items p:nth-of-type(1){
+  margin: 15% 0;
+  color: hsl(213, 9%, 39%);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+}
+
+.testimonials .testimonials-content .testimonials-items h5{
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+}
+
+.testimonials .testimonials-content .testimonials-items p:nth-of-type(2){
+  font-family: 'Barlow', sans-serif;
+  color: hsl(210, 4%, 67%);
+}
+
+/* image row */
+section.image-row{
+  max-width:100vw;
+  display: flex;
+}
+
+section.image-row img{
+  width:25vw;
+}
+
+/* footer */
+footer{
+  width:100vw;
+  text-align: center;
+  padding: 5% 0;
+  background-color: hsl(168, 34%, 60%);
+}
+
+footer h2{
+  font-family: 'Lexend', sans-serif;
+  letter-spacing: -1px;
+  font-size: 3rem;
+  color: hsl(168, 34%, 30%);
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 3% 0 7% 0;
+}
+
+footer ul li {
+  display:inline-block;
+  margin-right: 3%;
+  font-family: 'Barlow', sans-serif;
+}
+
+footer ul li a{
+  color: hsl(168, 34%, 35%);
+
+}
+
+footer ul li a:hover{
+  text-decoration: none;
+  color: hsl(168, 34%, 35%);
+}
+
+footer ul li a:active{
+  color:white;
+}
+
+footer svg{
+  margin-right: 2%;
+}
+
+
+
+/* MOBILE DESIGN */
+@media only screen and (min-width:300px) and (max-width: 645px){
+ /* section: hero */
+ .hero{
+   height: 90vh;
+ }
+
+ /* navbar */
+ .brand-lexend-font{
+   font-size: 1.25rem;
+ }
+
+ .navbar{
+   padding: initial;
+ }
+
+ .navbar-toggler{
+   padding: 0;
+ }
+
+ .navbar ul{
+   font-size: 14px;
+ }
+
+ .company-intro {
+    font-size: 2.5rem;
+    margin: 30% 0;
+}
+
+ svg.arrow{
+ position:absolute;
+ left: 47%;
+ bottom:32%;
+ }
+
+ /* FEATURES */
+ section.features{
+   flex-direction:column;
+ }
+
+ .features div.items{
+   width:100vw;
+   height: 60vh;
+   font-size: 16px;
+ }
+
+ /* items order */
+ .transform-image{
+   order:1;
+ }
+ .transform-text{
+   order:2;
+ }
+ .stand-out-image{
+   order:3;
+ }
+ .stand-out-text{
+   order: 4;
+ }
+ .cherries-background{
+   order:5;
+ }
+ .orange-background{
+   order: 6;
+ }
+
+ .stand-out-text, .transform-text {
+     padding: 20% 3%;
+     text-align: center;
+ }
+
+ .stand-out-text h1, .transform-text h1{
+  font-size: 2rem;
+ }
+
+ .stand-out-text .underline, .transform-text .underline{
+   right: -25%;
+ }
+
+ .features-bottom-text {
+    padding: 0 5%;
+}
+
+/* TESTIMONIALS */
+
+section.testimonials {
+    height: auto;
+    display: block;
+}
+
+.testimonials .testimonials-content {
+    width: 100vw;
+    padding: 0 5%;
+}
+
+.testimonials-content .testimonials-row {
+   flex-direction: column;
+}
+
+.testimonials .testimonials-content .testimonials-items {
+    max-width: 100vw;
+}
+
+.testimonials .testimonials-content .testimonials-items p:nth-of-type(1) {
+    margin: 5% 0;
+}
+
+section.image-row {
+  flex-wrap: wrap;
+}
+
+section.image-row img {
+    width: 50vw;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+}
+
+footer ul {
+    margin: 10% 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.social-media-icons a{
+  margin-right: 3%;
+}
+
+.attribution {
+    font-size: 14px;
+}
+}
+
+/* UNDERLINE BREAKPOINTS */
+@media only screen and (min-width:300px) and (max-width: 345px){
+  .stand-out-text .underline, .transform-text .underline{
+    right: -25%;
+  }
+}
+
+@media only screen and (min-width:346px) and (max-width: 370px){
+  .stand-out-text .underline, .transform-text .underline{
+    right: -27%;
+  }
+}
+
+@media only screen and (min-width:371px) and (max-width: 419px){
+  .stand-out-text .underline, .transform-text .underline{
+    right: -29%;
+  }
+}
+
+@media only screen and (min-width:420px) and (max-width: 479px){
+  .stand-out-text .underline, .transform-text .underline{
+    right: -32%;
+  }
+}
+
+@media only screen and (min-width:480px) and (max-width: 519px){
+  .stand-out-text .underline, .transform-text .underline{
+    right: -33%;
+  }
+}
+
+@media only screen and (min-width:520px) and (max-width: 580px){
+  .stand-out-text .underline, .transform-text .underline{
+    right: -35%;
+  }
+}
+
+@media only screen and (min-width:581px) and (max-width: 645px){
+  .stand-out-text .underline, .transform-text .underline{
+    right: -38%;
+  }
+}
