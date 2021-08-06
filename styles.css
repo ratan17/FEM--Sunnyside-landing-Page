@@ -1,4 +1,4 @@
-.attribution { font-size: 18px; text-align: center; background-color: cyan; }
+.attribution { font-size: 18px; text-align: center; background-color: cyan;}
 .attribution a { color: hsl(198, 62%, 26%); }
 
 body{
@@ -195,7 +195,7 @@ section.testimonials{
 }
 
 
-.testimonials .testimonials-content h4{
+.testimonials .testimonials-content h3{
   font-family: 'Fraunces', sans-serif;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -211,7 +211,7 @@ section.testimonials{
 }
 
 .testimonials .testimonials-content .testimonials-items{
-  max-width: 25vw;
+  max-width: 25%;
   text-align: center;
 }
 
@@ -227,7 +227,7 @@ section.testimonials{
   font-weight: 600;
 }
 
-.testimonials .testimonials-content .testimonials-items h5{
+.testimonials .testimonials-content .testimonials-items h4{
   font-family: 'Fraunces', sans-serif;
   font-weight: 700;
 }
